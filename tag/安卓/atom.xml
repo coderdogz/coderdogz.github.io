@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>做个俗人  贪财好色 • Posts by &#34;安卓&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2021-05-10T09:12:53.000Z</updated>
+    <category term="逆向" />
+    <category term="安卓" />
+    <category term="Frida" />
+    <category term="抓包" />
+    <entry>
+        <id>http://example.com/2021/05/10/%E6%A8%B1%E8%8A%B1/</id>
+        <title>樱花</title>
+        <link rel="alternate" href="http://example.com/2021/05/10/%E6%A8%B1%E8%8A%B1/"/>
+        <content type="html">&lt;p&gt;实战樱花 app, 难度：有手就行，参数：请求 &lt;code&gt;req&lt;/code&gt; &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;抓包&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#抓包&#34;&gt;#&lt;/a&gt; 抓包&lt;/h2&gt;
+&lt;p&gt;安装好之后先抓包，这次使用的是小黄鸟  + pixel&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于之前在 N5x 上面小黄鸟打开抓包之后 VPN 图标并不能正常出现，这次换了一个版本好了，就可以用了 (孕气好)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/coderdogz/img/20210510172226.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;通过抓包可以看到服务器地址为: &lt;code&gt;http://vip.yinlu.online/v1/svc/sms&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;参数:  &lt;code&gt;req=5rbFBgelHwvqcXtwsVAfWiMkqJ1cXwuEGEZmyEgOFjrmxVGEMK5jsTYpH1MHbo3yiPMCrO4J8OFeEw7HJyIH0qewUwcbSbH9fJ4N+Yz5ihb9cfCfFT8wnD+GOVy6x6ltWOVHjBNwwOqEzMTbDIFG0rD6CSwwwQBgteVJGiu7iRimwhkILBODqrqqgmmBTrKp0TxdgiLSwRbB6mXJhFItE1VXLhNlhZgbIz1L3DyN4gSmfPjXi79RkZTEqm8wE/wgZ0V4OVElEPWb7B6AA5MrVYWlbjse9Ht85SuLnUFYU1EqAPDq8/T52y6q5rtem1fP3n6Nq/HIU80z52ift5bibQdHDm/Vb3P0wm0hKnFk4UP5/dCZmUPbbSKKbQJQLslRL5vwjYEf7My2QDYysyeidd/ZlfsoF1K3ryB3jv/fg+3J+2XURyyB2eh9WbouB9T0kwYzvXts/jJmlH8HE5ZVCA==&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参数分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#参数分析&#34;&gt;#&lt;/a&gt; 参数分析&lt;/h2&gt;
+&lt;p&gt;使用 jadx 打开 apk, 可以看到只是混淆了并没有加壳，搜索 &lt;code&gt;v1/svc/sms&lt;/code&gt;  可知:&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/coderdogz/img/20210510172742.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点进去可以看到下面有个 code get , 然后右键  &lt;code&gt;Find  usage&lt;/code&gt; , 只有两个结果看看就看到结果了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/coderdogz/img/20210510173124.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;使用 objection 快速验证 &lt;code&gt;e.h.a.f.h.e&lt;/code&gt;  为收集参数值，在查看 &lt;code&gt;com.dasc.base_self_innovate.base_network.NetWorkStringUtil&lt;/code&gt;  为调用加解密.&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/coderdogz/img/20210510174332.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/coderdogz/img/20210510174419.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;不继续分析了，其中有个 &lt;code&gt;sign&lt;/code&gt; , 其实静态分析一下就行.&lt;/p&gt;
+</content>
+        <category term="逆向" />
+        <category term="安卓" />
+        <category term="Frida" />
+        <category term="抓包" />
+        <updated>2021-05-10T09:12:53.000Z</updated>
+    </entry>
+</feed>
