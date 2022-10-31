@@ -672,9 +672,7 @@ join () 会一直等待知道所有线程结束&lt;br /&gt;
         <id>http://example.com/2021/05/07/%E7%A7%BB%E5%8A%A8TV/</id>
         <title>移动TV</title>
         <link rel="alternate" href="http://example.com/2021/05/07/%E7%A7%BB%E5%8A%A8TV/"/>
-        <content type="html">&lt;blockquote&gt;
-&lt;p&gt;实战移动TV,只分析了登录注册&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+        <content type="html">&lt;p&gt;实战移动TV,只分析了登录注册&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;更多详细内容可以参考指纹大佬的文章 ===&amp;gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYnMucGVkaXkuY29tL3RocmVhZC0yNTg3NzYuaHRt&#34;&gt;https://bbs.pediy.com/thread-258776.htm&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
