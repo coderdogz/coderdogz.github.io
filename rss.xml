@@ -21,7 +21,8 @@
             <category term="网址" scheme="http://example.com/tags/%E7%BD%91%E5%9D%80/" />
             <category term="备忘" scheme="http://example.com/tags/%E5%A4%87%E5%BF%98/" />
             <pubDate>Wed, 02 Nov 2022 22:07:40 +0800</pubDate>
-            <description><![CDATA[ &lt;ul&gt;
+            <description><![CDATA[ &lt;p&gt;常用的网址备忘  &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3dheWxhdS9naXQtZm9yLXdpbg==&#34;&gt;git 国内下载地址&lt;/span&gt;&lt;/p&gt;
 &lt;/li&gt;
