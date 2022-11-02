@@ -10,8 +10,48 @@
         </author>
         <description>   终是庄周梦了蝶      亦是情缘亦是劫</description>
         <language>zh-CN,en,zh-TW,default</language>
-        <pubDate>Tue, 01 Nov 2022 00:53:01 +0800</pubDate>
-        <lastBuildDate>Tue, 01 Nov 2022 00:53:01 +0800</lastBuildDate>
+        <pubDate>Wed, 02 Nov 2022 22:07:40 +0800</pubDate>
+        <lastBuildDate>Wed, 02 Nov 2022 22:07:40 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/11/02/%E7%BD%91%E5%9D%80%E5%A4%87%E5%BF%98/</guid>
+            <title>网址备忘.md</title>
+            <link>http://example.com/2022/11/02/%E7%BD%91%E5%9D%80%E5%A4%87%E5%BF%98/</link>
+            <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
+            <category term="工具" scheme="http://example.com/tags/%E5%B7%A5%E5%85%B7/" />
+            <category term="网址" scheme="http://example.com/tags/%E7%BD%91%E5%9D%80/" />
+            <category term="备忘" scheme="http://example.com/tags/%E5%A4%87%E5%BF%98/" />
+            <pubDate>Wed, 02 Nov 2022 22:07:40 +0800</pubDate>
+            <description><![CDATA[ &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3dheWxhdS9naXQtZm9yLXdpbg==&#34;&gt;git 国内下载地址&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuNTJwb2ppZS5jbi9mb3J1bS5waHA/bW9kPXZpZXd0aHJlYWQmYW1wO3RpZD04MjI0MzQmYW1wO3BhZ2U9MSZhbXA7YXV0aG9yaWQ9OTk0MTA5&#34;&gt;吾爱破解从零开始学安卓逆向教程&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9odHRwYmluLm9yZy9nZXQ/c2hvd19lbnY9MQ==&#34;&gt;程序请求头测试网址&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taXJyb3JzLnR1bmEudHNpbmdodWEuZWR1LmNuL2FuYWNvbmRhL2FyY2hpdmUv&#34;&gt;anaconda 清华大学下载地址&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbnRvbGkuY29tL2Jsb2cvbm90LXBvc3NpYmxlLXRvLWJsb2NrLWNocm9tZS1oZWFkbGVzcy9jaHJvbWUtaGVhZGxlc3MtdGVzdC5odG1s&#34;&gt;浏览器信息检测&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGZkLnVjaS5lZHUvfmdvaGxrZS9weXRob25saWJzLyN0d2lzdGVk&#34;&gt;twisted.whl 下载地址&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2Nocm9tZWRyaXZlci5zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2luZGV4Lmh0bWw=&#34;&gt;Chromedriver 下载地址&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWFubmluZy5jb20vYm9va3MvZ3Jva2tpbmctYWxnb3JpdGhtcw==&#34;&gt;算法图解原版链接 (python2.7 实现&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5nZWV0ZXN0LmNvbS9kZW1vLw==&#34;&gt;极验 demo 地址&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/01/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%AD%A6%E4%B9%A0/</guid>
             <title>python多线程学习.md</title>
