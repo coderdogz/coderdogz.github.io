@@ -10,8 +10,28 @@
         </author>
         <description>   终是庄周梦了蝶      亦是情缘亦是劫</description>
         <language>zh-CN,en,zh-TW,default</language>
-        <pubDate>Fri, 04 Nov 2022 22:26:26 +0800</pubDate>
-        <lastBuildDate>Fri, 04 Nov 2022 22:26:26 +0800</lastBuildDate>
+        <pubDate>Fri, 04 Nov 2022 22:33:38 +0800</pubDate>
+        <lastBuildDate>Fri, 04 Nov 2022 22:33:38 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/11/04/Command-python-setup-py-egg-info-failed-with-error-code-1-in-tmp-pip-build-thtq7d55-frida/</guid>
+            <title>Command &#39;python setup.py egg_info&#39; failed with error code 1 in /tmp/pip-build-thtq7d55/frida/</title>
+            <link>http://example.com/2022/11/04/Command-python-setup-py-egg-info-failed-with-error-code-1-in-tmp-pip-build-thtq7d55-frida/</link>
+            <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
+            <category term="bug" scheme="http://example.com/tags/bug/" />
+            <category term="python" scheme="http://example.com/tags/python/" />
+            <pubDate>Fri, 04 Nov 2022 22:33:38 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;另一种方法解决 Command &amp;quot;python &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3NldHVwLnB5&#34;&gt;setup.py&lt;/span&gt; egg_info&#34; failed with error code 1 in /tmp/pip-build-thtq7d55/frida/ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;错误重现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#错误重现&#34;&gt;#&lt;/a&gt; 错误重现&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;ubuntu20.04 下安装执行 &lt;code&gt;pip3 install frida&lt;/code&gt;  安装 frida 报错 &lt;code&gt;Command &amp;quot;python setup.py egg_info&amp;quot; failed with error code 1 in /tmp/pip-build-thtq7d55/frida/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt; 解决方法&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;搜索得知执行 &lt;code&gt;pip install --upgrade setuptools&lt;/code&gt;  就可以&lt;br /&gt;
+&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/coderdogz/img/202211042235236.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/04/Ubuntu%E6%8D%A2%E6%BA%90/</guid>
             <title>Ubuntu换源</title>

@@ -7,6 +7,18 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2022/11/04/Command-python-setup-py-egg-info-failed-with-error-code-1-in-tmp-pip-build-thtq7d55-frida/",
+            "url": "http://example.com/2022/11/04/Command-python-setup-py-egg-info-failed-with-error-code-1-in-tmp-pip-build-thtq7d55-frida/",
+            "title": "Command 'python setup.py egg_info' failed with error code 1 in /tmp/pip-build-thtq7d55/frida/",
+            "date_published": "2022-11-04T14:33:38.000Z",
+            "content_html": "<p>另一种方法解决 Command &quot;python <span class=\"exturl\" data-url=\"aHR0cDovL3NldHVwLnB5\">setup.py</span> egg_info\" failed with error code 1 in /tmp/pip-build-thtq7d55/frida/ <span id=\"more\"></span></p>\n<h4 id=\"错误重现\"><a class=\"anchor\" href=\"#错误重现\">#</a> 错误重现</h4>\n<ul>\n<li>ubuntu20.04 下安装执行 <code>pip3 install frida</code>  安装 frida 报错 <code>Command &quot;python setup.py egg_info&quot; failed with error code 1 in /tmp/pip-build-thtq7d55/frida/</code></li>\n</ul>\n<h4 id=\"解决方法\"><a class=\"anchor\" href=\"#解决方法\">#</a> 解决方法</h4>\n<ul>\n<li>搜索得知执行 <code>pip install --upgrade setuptools</code>  就可以<br />\n<img data-src=\"https://cdn.jsdelivr.net/gh/coderdogz/img/202211042235236.png\" alt=\"\" /></li>\n</ul>\n",
+            "tags": [
+                "操作备忘",
+                "bug",
+                "python"
+            ]
+        },
+        {
             "id": "http://example.com/2022/11/04/Ubuntu%E6%8D%A2%E6%BA%90/",
             "url": "http://example.com/2022/11/04/Ubuntu%E6%8D%A2%E6%BA%90/",
             "title": "Ubuntu换源",
