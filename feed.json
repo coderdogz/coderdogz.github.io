@@ -7,6 +7,18 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2022/11/04/E-Unable-to-locate-package-neofetch/",
+            "url": "http://example.com/2022/11/04/E-Unable-to-locate-package-neofetch/",
+            "title": "E: Unable to locate package neofetch",
+            "date_published": "2022-11-04T14:15:26.000Z",
+            "content_html": "<blockquote>\n<p>ubuntu16.04 在安装  <code>neofetch</code>  的时候会遇到  <code>E: Unable to locate package neofetch</code> , 这里提供一种解决方式</p>\n</blockquote>\n<p><span id=\"more\"></span></p>\n<ul>\n<li>在遇到错误搜索之后发现，几乎所有的文章都是先  <code>sudo apt-get update</code>  然后  <code>sudo apt-get install neofetch</code> . 但是我都未解决我的问题</li>\n<li>继续搜索之后发现这样可以解决\n<ol>\n<li><code>sudo add-apt-repository ppa:dawidd0811/neofetch</code></li>\n<li><code>sudo apt-get update</code></li>\n<li><code>sudo apt-get install neofetch</code></li>\n</ol>\n</li>\n</ul>\n<blockquote>\n<p>来自一篇 16 年的文章:<br />\n 原文指路 ==&gt; <span class=\"exturl\" data-url=\"aHR0cHM6Ly9teS5vc2NoaW5hLm5ldC9saXV5dWFudGFvL2Jsb2cvODAwMzc1\">https://my.oschina.net/liuyuantao/blog/800375</span></p>\n</blockquote>\n",
+            "tags": [
+                "操作备忘",
+                "bug",
+                "ubuntu"
+            ]
+        },
+        {
             "id": "http://example.com/2022/11/02/%E7%BD%91%E5%9D%80%E5%A4%87%E5%BF%98/",
             "url": "http://example.com/2022/11/02/%E7%BD%91%E5%9D%80%E5%A4%87%E5%BF%98/",
             "title": "网址备忘.md",
