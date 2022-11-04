@@ -54,7 +54,7 @@
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5sZmQudWNpLmVkdS9+Z29obGtlL3B5dGhvbmxpYnMvI2x4bWw=&#34;&gt;Unofficial Windows Binaries for Python Extension Packages&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;pip install xxx.whl&lt;/code&gt;&lt;/p&gt;
 </content>
-        <category term="操作备忘1" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%981/" />
+        <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
         <category term="bug" scheme="http://example.com/tags/bug/" />
         <category term="mitmproxy" scheme="http://example.com/tags/mitmproxy/" />
         <updated>2022-11-04T14:43:19.000Z</updated>

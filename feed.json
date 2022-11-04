@@ -37,7 +37,7 @@
             "date_published": "2022-11-04T14:43:19.000Z",
             "content_html": "<p>缺什么装什么 <span id=\"more\"></span></p>\n<p>到这个网址下载 whl 文件，带路径安装</p>\n<p><span class=\"exturl\" data-url=\"aHR0cDovL3d3dy5sZmQudWNpLmVkdS9+Z29obGtlL3B5dGhvbmxpYnMvI2x4bWw=\">Unofficial Windows Binaries for Python Extension Packages</span></p>\n<p><code>pip install xxx.whl</code></p>\n",
             "tags": [
-                "操作备忘1",
+                "操作备忘",
                 "bug",
                 "mitmproxy"
             ]
