@@ -10,8 +10,23 @@
         </author>
         <description>   终是庄周梦了蝶      亦是情缘亦是劫</description>
         <language>zh-CN,en,zh-TW,default</language>
-        <pubDate>Fri, 04 Nov 2022 22:23:46 +0800</pubDate>
-        <lastBuildDate>Fri, 04 Nov 2022 22:23:46 +0800</lastBuildDate>
+        <pubDate>Fri, 04 Nov 2022 22:26:26 +0800</pubDate>
+        <lastBuildDate>Fri, 04 Nov 2022 22:26:26 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/11/04/Ubuntu%E6%8D%A2%E6%BA%90/</guid>
+            <title>Ubuntu换源</title>
+            <link>http://example.com/2022/11/04/Ubuntu%E6%8D%A2%E6%BA%90/</link>
+            <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
+            <category term="tips" scheme="http://example.com/tags/tips/" />
+            <pubDate>Fri, 04 Nov 2022 22:26:26 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;在使用ububtu的时候免不了切换安装源，网上其他的文本复制总会出现一些或大或小的问题，这里我以清华源为例 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入官方帮助&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9taXJyb3IudHVuYS50c2luZ2h1YS5lZHUuY24vaGVscC91YnVudHUv&#34;&gt; https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;选择你想要的版本&lt;/li&gt;
+&lt;li&gt;复制粘贴，解决问题&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/04/Kali-Linux-Failed-to-launch-preferred-application-for-category-TerminalEmulator-and-all-files-missing/</guid>
             <title>Kali Linux Failed to launch preferred application for category &#39;TerminalEmulator&#39; and all files missing</title>
@@ -49,9 +64,7 @@ Reboot. Then run  &lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrad
             <category term="bug" scheme="http://example.com/tags/bug/" />
             <category term="ubuntu" scheme="http://example.com/tags/ubuntu/" />
             <pubDate>Fri, 04 Nov 2022 22:15:26 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
-&lt;p&gt;ubuntu16.04 在安装  &lt;code&gt;neofetch&lt;/code&gt;  的时候会遇到  &lt;code&gt;E: Unable to locate package neofetch&lt;/code&gt; , 这里提供一种解决方式&lt;/p&gt;
-&lt;/blockquote&gt;
+            <description><![CDATA[ &lt;p&gt;ubuntu16.04 在安装  &lt;code&gt;neofetch&lt;/code&gt;  的时候会遇到  &lt;code&gt;E: Unable to locate package neofetch&lt;/code&gt; , 这里提供一种解决方式&lt;/p&gt;
 &lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在遇到错误搜索之后发现，几乎所有的文章都是先  &lt;code&gt;sudo apt-get update&lt;/code&gt;  然后  &lt;code&gt;sudo apt-get install neofetch&lt;/code&gt; . 但是我都未解决我的问题&lt;/li&gt;
