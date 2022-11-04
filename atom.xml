@@ -8,7 +8,92 @@
     <author>
       <name>折花载酒z</name>
     </author>
-    <updated>2022-11-04T14:33:38.000Z</updated>
+    <updated>2022-11-04T14:43:19.000Z</updated>
+    <entry>
+        <id>http://example.com/2022/11/04/win10%E5%AE%89%E8%A3%85mitmproxy%E6%8A%A5%E9%94%99-Failed-building-wheel-for-brotlipy/</id>
+        <title>win10安装mitmproxy报错&#39;Failed building wheel for brotlipy&#39;</title>
+        <link rel="alternate" href="http://example.com/2022/11/04/win10%E5%AE%89%E8%A3%85mitmproxy%E6%8A%A5%E9%94%99-Failed-building-wheel-for-brotlipy/"/>
+        <content type="html">&lt;p&gt;缺什么装什么 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;到这个网址下载 whl 文件，带路径安装&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5sZmQudWNpLmVkdS9+Z29obGtlL3B5dGhvbmxpYnMvI2x4bWw=&#34;&gt;Unofficial Windows Binaries for Python Extension Packages&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install xxx.whl&lt;/code&gt;&lt;/p&gt;
+</content>
+        <category term="操作备忘1" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%981/" />
+        <category term="bug" scheme="http://example.com/tags/bug/" />
+        <category term="mitmproxy" scheme="http://example.com/tags/mitmproxy/" />
+        <updated>2022-11-04T14:43:19.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/04/win10%E5%AE%89%E8%A3%85mitmproxy%EF%BC%8C%E6%88%90%E5%8A%9F%E4%B9%8B%E5%90%8E%E8%AE%BF%E9%97%AEmitm-it%E5%87%BA%E7%8E%B0%E4%B8%8D%E4%BA%86%E4%B8%8B%E8%BD%BD%E8%AF%81%E4%B9%A6%E9%A1%B5%E9%9D%A2/</id>
+        <title>win10安装mitmproxy，成功之后访问mitm.it出现不了下载证书页面</title>
+        <link rel="alternate" href="http://example.com/2022/11/04/win10%E5%AE%89%E8%A3%85mitmproxy%EF%BC%8C%E6%88%90%E5%8A%9F%E4%B9%8B%E5%90%8E%E8%AE%BF%E9%97%AEmitm-it%E5%87%BA%E7%8E%B0%E4%B8%8D%E4%BA%86%E4%B8%8B%E8%BD%BD%E8%AF%81%E4%B9%A6%E9%A1%B5%E9%9D%A2/"/>
+        <content type="html">&lt;p&gt;浏览器代理老问题 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;错误重现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#错误重现&#34;&gt;#&lt;/a&gt; 错误重现&lt;/h3&gt;
+&lt;p&gt;所有都安装好之后，各种检测都通过时候依旧出现不了证书下载页面。&lt;/p&gt;
+&lt;p&gt;此时检测一下浏览器或者计算机是否使用了代理【我就是因为使用了谷歌上网助手而导致不成功的 =-=】&lt;/p&gt;
+&lt;h3 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt; 解决方法&lt;/h3&gt;
+&lt;p&gt;关闭所有代理工具，使用系统代理&lt;/p&gt;
+&lt;h3 id=&#34;插件推荐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件推荐&#34;&gt;#&lt;/a&gt; 插件推荐&lt;/h3&gt;
+&lt;p&gt;使用 SwitchyOmega 是所有流量切换到固定端口，监听此端口&lt;/p&gt;
+&lt;p&gt;SwitchyOmega: 一个强大的代理切换工具 (官方自述)&lt;/p&gt;
+</content>
+        <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
+        <category term="bug" scheme="http://example.com/tags/bug/" />
+        <category term="mitmproxy" scheme="http://example.com/tags/mitmproxy/" />
+        <category term="代理" scheme="http://example.com/tags/%E4%BB%A3%E7%90%86/" />
+        <category term="证书" scheme="http://example.com/tags/%E8%AF%81%E4%B9%A6/" />
+        <updated>2022-11-04T14:41:09.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/04/Ubuntu%E5%AE%89%E8%A3%85curl%E6%8A%A5%E9%94%99%EF%BC%9A%E8%BD%AF%E4%BB%B6%E5%8C%85%E6%9C%89%E6%9C%AA%E6%BB%A1%E8%B6%B3%E7%9A%84%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%EF%BC%9A-curl-%E4%BE%9D%E8%B5%96-libcurl4-7-58-0-2ubuntu3-10/</id>
+        <title>Ubuntu安装curl报错：软件包有未满足的依赖关系： curl : 依赖: libcurl4 (= 7.58.0-2ubuntu3.10)</title>
+        <link rel="alternate" href="http://example.com/2022/11/04/Ubuntu%E5%AE%89%E8%A3%85curl%E6%8A%A5%E9%94%99%EF%BC%9A%E8%BD%AF%E4%BB%B6%E5%8C%85%E6%9C%89%E6%9C%AA%E6%BB%A1%E8%B6%B3%E7%9A%84%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%EF%BC%9A-curl-%E4%BE%9D%E8%B5%96-libcurl4-7-58-0-2ubuntu3-10/"/>
+        <content type="html">&lt;p&gt;依赖关系错误的老问题了 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;错误重现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#错误重现&#34;&gt;#&lt;/a&gt; 错误重现&lt;/h4&gt;
+&lt;p&gt;执行 &lt;code&gt;sudo apt install curl&lt;/code&gt; &lt;br /&gt;
+ 下列软件包有未满足的依赖关系：&lt;br /&gt;
+curl : 依赖: libcurl4 (= 7.58.0-2ubuntu3.10) 但是 7.68.0-1ubuntu2.1 正要被安装&lt;br /&gt;
+ E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。&lt;/p&gt;
+&lt;h4 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt; 解决方法&lt;/h4&gt;
+&lt;p&gt;依次执行:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;apt-get purge libcurl4&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;apt-get install curl&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
+        <category term="bug" scheme="http://example.com/tags/bug/" />
+        <category term="ubuntu" scheme="http://example.com/tags/ubuntu/" />
+        <updated>2022-11-04T14:39:03.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/04/linux-ubuntu-pip3-list-%E5%87%BA%E7%8E%B0%E8%AD%A6%E5%91%8A/</id>
+        <title>linux ubuntu pip3 list 出现警告</title>
+        <link rel="alternate" href="http://example.com/2022/11/04/linux-ubuntu-pip3-list-%E5%87%BA%E7%8E%B0%E8%AD%A6%E5%91%8A/"/>
+        <content type="html">&lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;错误重现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#错误重现&#34;&gt;#&lt;/a&gt; 错误重现&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt; 执行pip3 list后出现
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt; 解决方法&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;在 &lt;code&gt;/etc&lt;/code&gt;  下新建 &lt;code&gt;pip.conf&lt;/code&gt; :&lt;br /&gt;
+ &lt;code&gt;sudo nano /etc/pip.conf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;写入&lt;br /&gt;
+ &lt;code&gt;[list] format=columns&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;ctrl x&lt;/code&gt;  Y 保存&lt;/li&gt;
+&lt;li&gt;再次执行 &lt;code&gt;pip3 lsit&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
+        <category term="bug" scheme="http://example.com/tags/bug/" />
+        <category term="ubuntu" scheme="http://example.com/tags/ubuntu/" />
+        <updated>2022-11-04T14:37:05.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2022/11/04/Command-python-setup-py-egg-info-failed-with-error-code-1-in-tmp-pip-build-thtq7d55-frida/</id>
         <title>Command &#39;python setup.py egg_info&#39; failed with error code 1 in /tmp/pip-build-thtq7d55/frida/</title>
