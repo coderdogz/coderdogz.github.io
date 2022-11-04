@@ -10,8 +10,37 @@
         </author>
         <description>   终是庄周梦了蝶      亦是情缘亦是劫</description>
         <language>zh-CN,en,zh-TW,default</language>
-        <pubDate>Fri, 04 Nov 2022 22:15:26 +0800</pubDate>
-        <lastBuildDate>Fri, 04 Nov 2022 22:15:26 +0800</lastBuildDate>
+        <pubDate>Fri, 04 Nov 2022 22:23:46 +0800</pubDate>
+        <lastBuildDate>Fri, 04 Nov 2022 22:23:46 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/11/04/Kali-Linux-Failed-to-launch-preferred-application-for-category-TerminalEmulator-and-all-files-missing/</guid>
+            <title>Kali Linux Failed to launch preferred application for category &#39;TerminalEmulator&#39; and all files missing</title>
+            <link>http://example.com/2022/11/04/Kali-Linux-Failed-to-launch-preferred-application-for-category-TerminalEmulator-and-all-files-missing/</link>
+            <category term="操作备忘" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E5%A4%87%E5%BF%98/" />
+            <category term="bug" scheme="http://example.com/tags/bug/" />
+            <category term="kali" scheme="http://example.com/tags/kali/" />
+            <pubDate>Fri, 04 Nov 2022 22:23:46 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I had a similar problem today. Installed Kali 2020.4 64-bit and ran sudo apt update &amp;amp;&amp;amp; sudo apt upgrade as you described. Rebooted the system and was unable to open terminal or browse files (I only tried via the &amp;quot;Home&amp;quot; folder on the desktop).&lt;/p&gt;
+&lt;p&gt;I was still able to open QTerminal directly from the application menu to run commands. I was able to fix this by running the following. Hopefully this works for you.&lt;br /&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo apt update&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo apt upgrade&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br /&gt;
+This returned a list of packages that &amp;quot;were automatically installed and are no longer required:&amp;quot; Remove these packages with the below command.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt autoremove&lt;/code&gt; &lt;br /&gt;
+Reboot. Then run  &lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade&lt;/code&gt;  again. The following packages were required. Reboot again and terminal/file browsing should be working as expected.&lt;/p&gt;
+&lt;p&gt;I suspect one specific package &amp;quot;xfce4-helpers&amp;quot; is causing the issue. I&#39;m new to Linux so not sure of the cause (hopefully someone can elaborate).&lt;/p&gt;
+&lt;p&gt;After completing the above steps, run  &lt;code&gt;sudo apt-get install xfce4-helpers&lt;/code&gt; .&lt;/p&gt;
+&lt;p&gt;After doing the above&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;right click the terminal and remove it from panel&lt;/li&gt;
+&lt;li&gt;then right click somewhere on the panel bar and go to &amp;quot;panel&amp;quot;&lt;/li&gt;
+&lt;li&gt;next go to &amp;quot;Add New&amp;quot; then scroll down to verve terminal and click on it.&lt;/li&gt;
+&lt;li&gt;Add it to the bar panel (it will show up next to notifications).&lt;/li&gt;
+&lt;li&gt;Right click again and go to move and move it to where it was.&lt;br /&gt;
+(alternatively you can just go to app drop down menu and add Qterm to your desktop).&lt;br /&gt;
+ 原文指路 --&amp;gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zdXBlcnVzZXIuY29tL3F1ZXN0aW9ucy8xNjE0MDQyL2thbGktbGludXgtZmFpbGVkLXRvLWxhdW5jaC1wcmVmZXJyZWQtYXBwbGljYXRpb24tZm9yLWNhdGVnb3J5LXRlcm1pbmFsZW11bGF0b3I=&#34;&gt;https://superuser.com/questions/1614042/kali-linux-failed-to-launch-preferred-application-for-category-terminalemulator&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/11/04/E-Unable-to-locate-package-neofetch/</guid>
             <title>E: Unable to locate package neofetch</title>
