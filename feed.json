@@ -7,6 +7,30 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2022/11/04/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%8D%E9%80%89/",
+            "url": "http://example.com/2022/11/04/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%8D%E9%80%89/",
+            "title": "正则表达式反选",
+            "date_published": "2022-11-04T14:49:43.000Z",
+            "content_html": "<p>正则表达式骚操作之反选 <span id=\"more\"></span></p>\n<h2 id=\"search函数判断是否为none\"><a class=\"anchor\" href=\"#search函数判断是否为none\">#</a> search 函数判断是否为 None</h2>\n<ul>\n<li>在有些时候我们使用 re 中的 search 的时候往往需要判断 search 里面的正则表达式是否为 None; 以前都是 <code>if ...else....</code> ; 这样当我们的正则表达式很长的时候写起来就和屎一样难看，虽然难看，但还是写了没办法～</li>\n<li>现在使用 bool () 就可以直接把 search 结果转换为 true or flase 可以直接判断 -----&gt;<br />\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">bool(re.search(&quot;hi&quot;, &quot;abcdefghijkl&quot;))  </span><br><span class=\"line\">True</span><br><span class=\"line\"></span><br><span class=\"line\">bool(re.search(&quot;hi&quot;, &quot;abcdefgijkl&quot;))  </span><br><span class=\"line\">False</span><br></pre></td></tr></table></figure></li>\n</ul>\n<h2 id=\"正则表达式反选\"><a class=\"anchor\" href=\"#正则表达式反选\">#</a> 正则表达式反选</h2>\n<p>示例：</p>\n<p>需要匹配出来 h1 标签 ps: 在实际开发中使用 h1 直接匹配太繁琐 so: 使用？！进行反选<br />\n <code>&lt;(?!div).\\*?text-align: center.\\*?/(?!div).\\*?&gt;</code></p>\n",
+            "tags": [
+                "操作备忘",
+                "tips",
+                "正则"
+            ]
+        },
+        {
+            "id": "http://example.com/2022/11/04/git%E6%8A%A5%E9%94%99%EF%BC%9A-fatal-remote-origin-already-exists/",
+            "url": "http://example.com/2022/11/04/git%E6%8A%A5%E9%94%99%EF%BC%9A-fatal-remote-origin-already-exists/",
+            "title": "git报错：'fatal:remote origin already exists'",
+            "date_published": "2022-11-04T14:47:04.000Z",
+            "content_html": "<p>只要两步，解决 <code>fatal:remote origin already exists</code>  <span id=\"more\"></span></p>\n<p>1. 先删除<br />\n <code>$ git remote rm origin</code> <br />\n2. 重新添加<br />\n <code>git remote add origin git@github.com:username/repostery.git //关联本地仓库，远程库的名字为origin</code></p>\n",
+            "tags": [
+                "操作备忘",
+                "bug",
+                "git"
+            ]
+        },
+        {
             "id": "http://example.com/2022/11/04/win10%E5%AE%89%E8%A3%85mitmproxy%E6%8A%A5%E9%94%99-Failed-building-wheel-for-brotlipy/",
             "url": "http://example.com/2022/11/04/win10%E5%AE%89%E8%A3%85mitmproxy%E6%8A%A5%E9%94%99-Failed-building-wheel-for-brotlipy/",
             "title": "win10安装mitmproxy报错'Failed building wheel for brotlipy'",
@@ -232,14 +256,6 @@
                 "逆向",
                 "安卓"
             ]
-        },
-        {
-            "id": "http://example.com/1970/01/01/hello-world/",
-            "url": "http://example.com/1970/01/01/hello-world/",
-            "title": "Hello World",
-            "date_published": "1969-12-31T16:00:00.000Z",
-            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></p>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure></p>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure></p>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure></p>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
-            "tags": []
         }
     ]
 }
